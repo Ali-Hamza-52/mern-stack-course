@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css 1</title>
+    <style>
+      /* internal css */
+      /* 
+            General Structure
+        selector {
+            property : value ;
+        } */
+
+      /* h1 {
+            color: chocolate;
+            background-color: green;
+        } */
+
+      /* 
+            1:id    # 
+            2:class .    
+        */
+
+      #third {
+        color: #ffafcc;
+        background-color: #18558e;
+      }
+      .same>strong{
+        text-align: center;
+      }
+
+      .same {
+        color: yellow;
+        background-color: black;
+        font-size: 35px;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="same">
+        <strong>Paragraph 1</strong>
+        <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat illum ipsam consequuntur exercitationem ad, dignissimos animi delectus fuga! Corporis eveniet modi dolore ad praesentium eum facilis distinctio rerum possimus provident.
+    </p>
+    <h2 class="same">There are three ways to use css in our project</h2>
+    <h1 id="third">There are three ways to use css in our project</h1>
+    <h1 class="same">There are three ways to use css in our project</h1>
+    <ol>
+      <li>Inline</li>
+      <li>Internal</li>
+      <li>External</li>
+    </ol>
+
+    <!-- inline css -->
+    <!-- <h1 style="background-color: blueviolet; color: yellowgreen;">There are three ways to use css in our project</h1> -->
+  </body>
+</html>

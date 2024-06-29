@@ -1,0 +1,29 @@
+#main{
+   height: 800px;
+   width: 300px;
+   font-size: 30px;
+   background-color: gray;
+   color: blueviolet;
+}
+
+#p1{
+    color: red;
+}
+
+#p2{
+    color: aliceblue;
+}
+
+p{
+    color: yellowgreen;
+}
+
+p{
+    color: chocolate;
+}
+
+.header{
+    min-height: 30px;
+    min-width: 100px;
+    background-color: rgb(100, 236, 236);
+}
